@@ -22,19 +22,29 @@ class Car {
 
 // create first car
 const ford = new Car('ford', 'escort', '1996');
+
 // create second car
 const chevy = new Car('chevy', 'impala', '1964');
+
 // create third car
 const kia = new Car('kia', 'sportage', '2017');
+
 // create fourth car
 const honda = new Car('honda', 'civic', '2002');
-// push all cars to an array called allCars
+
+// create an array
 let allCars = [];
+
+// push all cars to the array
 allCars.push(ford);
 allCars.push(chevy);
 allCars.push(kia);
 allCars.push(honda);
+
 //create a function that returns the cars
+function carDescription(car) {
+    return car.describe;
+}
 
 //create an array called allCars
 
@@ -48,5 +58,5 @@ allCars.push(honda);
 
     // describe car 4
 
-    console.log(allCars);
+   
 
