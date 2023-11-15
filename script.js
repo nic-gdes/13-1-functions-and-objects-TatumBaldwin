@@ -29,7 +29,11 @@ const kia = new Car('kia', 'sportage', '2017');
 // create fourth car
 const honda = new Car('honda', 'civic', '2002');
 // push all cars to an array called allCars
-
+let allCars = [];
+allCars.push(ford);
+allCars.push(chevy);
+allCars.push(kia);
+allCars.push(honda);
 //create a function that returns the cars
 
 //create an array called allCars
@@ -44,5 +48,5 @@ const honda = new Car('honda', 'civic', '2002');
 
     // describe car 4
 
-    console.log(chevy.describe())
+    console.log(allCars);
 
