@@ -42,21 +42,12 @@ allCars.push(kia);
 allCars.push(honda);
 
 //create a function that returns the cars
-function carDescription(car) {
-    return car.describe;
-}
-
-//create an array called allCars
+ function carDescription(car) {
+     return car.describe();
+ }
 
 // Loop through allCars
-
+for (let i = 0; i < allCars.length; i++) {
     // describe car 1
-
-    //describe car 2
-
-    //describe car 3 
-
-    // describe car 4
-
-   
-
+    carDescription(allCars[i]);
+}  
